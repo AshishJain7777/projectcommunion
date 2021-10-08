@@ -1,0 +1,53 @@
+/* for body */
+#homepagebody
+{
+    background-image: url(pexels-maximilian-oeverhaus-7439458.jpg);
+}
+
+/* for header */
+#rulerheader{
+
+    background-color: black;
+}
+
+/* for sections */
+#regionsection{
+
+    text-align: right;
+    
+}
+#regionselect{
+    font-size: 20px;
+}
+
+#spanregion{
+    font-size: 20px;
+    font-style:italic;
+}
+
+/* for forms */
+
+/* for footer */
+#footerlinks{
+    text-align: right;
+    direction: rtl;
+}
+#rulerfooter{
+    background-color: black;
+    }
+
+/* for lower sections */
+
+
+
+/* body */
+
+/* header */
+
+/* aside */
+
+/* free section 1 */
+
+/* footer */
+
+/* div 1 */

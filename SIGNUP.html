@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="HOMEPAGE.html">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>SIGN UP - COMMUNION</title>
+</head>
+
+<header>
+    <!-- <a href="HOME.html">HOME</a> -->
+    <a href="HOMEPAGE.html" title="Home"><i class="fas fa-home fa-2x"></i></a>&#160&#160&#160
+    <a href="SIGNIN.html" title="Existing User"><i class="fas fa-sign-in-alt fa-2x"></i></a>&#160&#160&#160
+    <a href="SIGNUP.html" title="New User"><i class="fas fa-user-plus fa-2x"></i></a>&#160&#160&#160
+    <a href="CONTACTS.html" title="Know About Us"><i class="fas fa-id-card-alt fa-2x"></i></a>&#160&#160&#160
+    <hr>
+</header>
+
+
+    <h3>SIGN UP AS A NEW USER</h3>
+    <form action="SIGNUP.php">
+        <section>
+            <label for="fname" id="fnamel">FIRST NAME</label>
+            <label for="lname" id="lnamel">LAST NAME</label><br>
+            <input type="text" name="FIRST NAME" id="fname">
+            <input type="text" name="LAST NAME" id="lname">
+        </section><br>
+        <section>
+            <label for="pass" id="passl">ENTER YOUR PASSWORD</label>
+            <input type="password" name="password" id="pass">
+        </section><br>
+        <section>
+            <label for="dateofbirth" id="dateofbirthl">DATE OF BIRTH</label>
+            <input type="date" value="dob" name="d.o.b" id="dateofbirth">
+        </section><br>
+        <section>
+            <label for="SEX1" id="SEX1l">SELECT YOUR SEX PREFRENCE ::::</label>
+            <label for="SEX1" id="SEX1l">MALE</label> <input type="radio" value="sex" name="INDIVIDUAL" id="SEX1">
+            <label for="SEX1" id="SEX1ll">FEMALE</label> <input type="radio" value="sex" name="INDIVIDUAL" id="SEX1">
+        </section>
+        <section>
+            <p>To continue please agree on our terms and conditions. <br> To know more about Terms and conditions click on the link given below. </p>
+            <input type="checkbox" name="eligible">Select to agree on our terms and conditions <a href=" termsandconditions.txt " download>Terms & Conditions</a>
+            <!-- this tag is used to put checkbox in your html -->
+        </section><br>
+        <section>
+            <input type="submit" value="CONFIRM" id="enter">
+            <input type="reset" value="RESET" id="reset">
+        </section><br>
+       
+    </form>
+</body>
+
+</html>
